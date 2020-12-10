@@ -59,7 +59,7 @@ export default function LoginScreen({ setToken, setId }) {
                 setId(id);
                 alert("connexion réussie!");
               } else {
-                alert("Une erreur est survenue, veuillez ressayer");
+                alert("Une erreur est survenue, veuillez réessayer");
               }
             } catch (error) {
               alert(error.message);
