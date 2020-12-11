@@ -11,7 +11,7 @@ import { TextInput, TouchableHighlight } from "react-native-gesture-handler";
 // import axios from "axios";
 import { useNavigation } from "@react-navigation/native";
 
-export default function LoginScreen({ setToken, setId }) {
+export default function LogInScreen({ setToken, setId }) {
   const navigation = useNavigation();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
